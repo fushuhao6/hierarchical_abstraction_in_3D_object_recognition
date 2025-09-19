@@ -3,8 +3,6 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 from data_analysis_upright import calculate_confidence_interval
 from scipy.stats import ttest_rel
-from utils import plot_confusion_matrix, correlate_confusion_matrices
-
 
 CHOICE_MAPPING = {
     "cls1": "airplane",
