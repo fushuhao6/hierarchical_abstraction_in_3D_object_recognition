@@ -1,2 +1,5 @@
 .idea
 Stimuli/
+*.png
+*.svg
+*.pdf
