@@ -1,0 +1,23 @@
+batch_size: 4
+epoch: 200
+learning_rate: 1e-3
+gpu: 0
+num_point: 1024
+optimizer: Adam
+weight_decay: 1e-4
+normal: False
+version: stimuli
+use_data_aug: False
+seed: 12345
+dataset: shapenetpart
+
+defaults:
+  - model: Hengshuang
+
+hydra:
+  run:
+    dir: log/cls/${model.name}
+
+  sweep:
+    dir: log/cls
+    subdir: ${model.name} 

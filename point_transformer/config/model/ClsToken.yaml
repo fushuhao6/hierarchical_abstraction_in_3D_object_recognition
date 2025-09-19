@@ -1,0 +1,6 @@
+nneighbor: 16
+nblocks: 4
+transformer_dim: 512
+name: ClsToken
+use_pos_enc: True
+use_attention: True

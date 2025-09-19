@@ -1,0 +1,8 @@
+nneighbor: 16
+nblocks: 4
+transformer_dim: 512
+name: Hengshuang
+downsample: True
+use_pos_enc: True
+use_attention: True
+use_residual: True
